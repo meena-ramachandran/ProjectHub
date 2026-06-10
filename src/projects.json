@@ -17,7 +17,7 @@
     "techStack": ["React", "Node.js", "Express", "MongoDB", "Chart.js"],
     "status": "Staging",
     "demoAvailable": true,
-    "demoUrl": "http://localhost:3000",
+    "demoUrl": "https://fin-sight-two-khaki.vercel.app",
     "githubRepo": "FinSight",
     "details": "Analyzes personal bank statement uploads, visualizes categories of expense leakages, and generates compounding loan and investment forecast projections with interactive graphs."
   },
@@ -28,7 +28,7 @@
     "techStack": ["Next.js", "React", "TypeScript", "TailwindCSS", "Vector DB", "Ollama"],
     "status": "Active",
     "demoAvailable": true,
-    "demoUrl": "http://localhost:3001",
+    "demoUrl": "https://rag-chatbot-chi-seven.vercel.app",
     "githubRepo": "RAGChatbot",
     "details": "Supports PDF document ingestion, interactive vector spatial chunk matching visualization, custom prompt formatting overrides, and step-by-step reasoning log displays."
   },
@@ -39,7 +39,7 @@
     "techStack": ["FastAPI", "Python", "yfinance", "TextBlob", "Chart.js", "WebSockets"],
     "status": "Active",
     "demoAvailable": true,
-    "demoUrl": "http://localhost:3002",
+    "demoUrl": "https://stock-vibe-delta.vercel.app",
     "githubRepo": "StockVibe",
     "details": "Streams live security ticker prices over WebSockets, maps rolling moving averages, and applies NLP lexical analysis on scraped RSS feed news headers to determine bullish/bearish trends."
   },
