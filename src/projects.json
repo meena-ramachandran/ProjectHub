@@ -1,0 +1,57 @@
+[
+  {
+    "id": "patient-management",
+    "name": "Patient Management System",
+    "description": "Event-driven microservices platform for healthcare clinic coordination, implementing role-based authentication, calendar conflict resolution, and real-time billing ledgers.",
+    "techStack": ["Spring Boot", "gRPC", "Kafka", "PostgreSQL", "Docker", "ELK Stack"],
+    "status": "Production-Ready",
+    "demoAvailable": true,
+    "demoUrl": "internal",
+    "githubRepo": "PatientManagementSystem",
+    "details": "Features synchronous gRPC client account registration, duration-based appointment conflict prevention, automated financial ledger credit/debit calculation, and Kafka event logs."
+  },
+  {
+    "id": "finsight",
+    "name": "FinSight",
+    "description": "A full-stack financial literacy portal designed to optimize expenditures, simulate long-term compound savings growth, and encourage healthy budgeting routines.",
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Chart.js"],
+    "status": "Staging",
+    "demoAvailable": true,
+    "demoUrl": "http://localhost:3000",
+    "githubRepo": "FinSight",
+    "details": "Analyzes personal bank statement uploads, visualizes categories of expense leakages, and generates compounding loan and investment forecast projections with interactive graphs."
+  },
+  {
+    "id": "rag-chatbot",
+    "name": "RAGChatbot",
+    "description": "Enterprise-grade Retrieval-Augmented Generation chatbot. Ingests structured documents, splits content into vectorized chunks, and queries local vector databases to enrich AI responses.",
+    "techStack": ["Next.js", "React", "TypeScript", "TailwindCSS", "Vector DB", "Ollama"],
+    "status": "Active",
+    "demoAvailable": true,
+    "demoUrl": "http://localhost:3001",
+    "githubRepo": "RAGChatbot",
+    "details": "Supports PDF document ingestion, interactive vector spatial chunk matching visualization, custom prompt formatting overrides, and step-by-step reasoning log displays."
+  },
+  {
+    "id": "stockvibe",
+    "name": "StockVibe",
+    "description": "Real-time stock price analytics dashboard integrated with natural language sentiment evaluation of financial news streams.",
+    "techStack": ["FastAPI", "Python", "yfinance", "TextBlob", "Chart.js", "WebSockets"],
+    "status": "Active",
+    "demoAvailable": true,
+    "demoUrl": "http://localhost:3002",
+    "githubRepo": "StockVibe",
+    "details": "Streams live security ticker prices over WebSockets, maps rolling moving averages, and applies NLP lexical analysis on scraped RSS feed news headers to determine bullish/bearish trends."
+  },
+  {
+    "id": "studybuddy",
+    "name": "StudyBuddy",
+    "description": "Multi-agent cognitive tutoring suite that routes subject inquiries to pedagogical personas specializing in Socratic dialogue, analogy mapping, and exam verification.",
+    "techStack": ["Flask", "Python", "Ollama", "Llama 3", "Coqui TTS", "TailwindCSS"],
+    "status": "Testing",
+    "demoAvailable": true,
+    "demoUrl": "http://localhost:5070",
+    "githubRepo": "StudyBuddy",
+    "details": "Features conversational state tracking for tutor continuity, automated mock exam quiz generation, audio translation summarizers, and text-to-speech revision feeds."
+  }
+]
