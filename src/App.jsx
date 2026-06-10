@@ -73,10 +73,10 @@ export default function App() {
               </a>
 
               <a
-                href="file:///Users/meena/.gemini/antigravity/scratch/Resume.md"
-                target="_blank"
+                href="file:../assets/Meena_Ramachandran_Kandimadai_CV.pdf"
                 rel="noopener noreferrer"
                 className="px-3 py-1.5 rounded-lg bg-indigo-600/25 border border-indigo-500/40 text-indigo-300 font-semibold hover:bg-indigo-600/45 hover:text-white transition-all flex items-center gap-1.5 text-xs"
+                download
               >
                 <FileText className="w-3.5 h-3.5" />
                 <span>Resume.md</span>
