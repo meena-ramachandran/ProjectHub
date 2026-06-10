@@ -4,7 +4,7 @@
     "name": "Patient Management System",
     "description": "Event-driven microservices platform for healthcare clinic coordination, implementing role-based authentication, calendar conflict resolution, and real-time billing ledgers.",
     "techStack": ["Spring Boot", "gRPC", "Kafka", "PostgreSQL", "Docker", "ELK Stack"],
-    "status": "Production-Ready",
+    "status": "Staging",
     "demoAvailable": true,
     "demoUrl": "internal",
     "githubRepo": "PatientManagementSystem",
