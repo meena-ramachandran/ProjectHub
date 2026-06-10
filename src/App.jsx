@@ -63,7 +63,7 @@ export default function App() {
               </a>
               
               <a
-                href="https://linkedin.com/in/meena-ramachandran"
+                href="https://www.linkedin.com/in/meena-ramachandran-kandimadai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors flex items-center gap-1.5"
