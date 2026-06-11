@@ -2,13 +2,13 @@
   {
     "id": "patient-management",
     "name": "Patient Management System",
-    "description": "Event-driven microservices platform for healthcare clinic coordination, implementing role-based authentication, calendar conflict resolution, and real-time billing ledgers.",
+    "description": "Distributed Spring Boot microservices platform (5 services) automating clinic workflows. Mathematically prevents 100% of scheduling double-bookings and syncs registration to billing via gRPC.",
     "techStack": ["Spring Boot", "gRPC", "Kafka", "PostgreSQL", "Docker", "ELK Stack"],
     "status": "Staging",
     "demoAvailable": true,
     "demoUrl": "internal",
     "githubRepo": "PatientManagementSystem",
-    "details": "Features synchronous gRPC client account registration, duration-based appointment conflict prevention, automated financial ledger credit/debit calculation, and Kafka event logs."
+    "details": "Implements a 4-role RBAC security gateway, Kafka event streams for audit logs, and isolated PostgreSQL databases per service, deployed via Docker Compose."
   },
   {
     "id": "finsight",
@@ -48,9 +48,9 @@
     "name": "StudyBuddy",
     "description": "Multi-agent cognitive tutoring suite that routes subject inquiries to pedagogical personas specializing in Socratic dialogue, analogy mapping, and exam verification.",
     "techStack": ["Flask", "Python", "Ollama", "Llama 3", "Coqui TTS", "TailwindCSS"],
-    "status": "Testing",
+    "status": "Active",
     "demoAvailable": true,
-    "demoUrl": "http://localhost:5070",
+    "demoUrl": "https://studybuddy-meena.onrender.com",
     "githubRepo": "StudyBuddy",
     "details": "Features conversational state tracking for tutor continuity, automated mock exam quiz generation, audio translation summarizers, and text-to-speech revision feeds."
   }
