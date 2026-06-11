@@ -24,13 +24,13 @@
   {
     "id": "rag-chatbot",
     "name": "RAGChatbot",
-    "description": "Enterprise-grade Retrieval-Augmented Generation chatbot. Ingests structured documents, splits content into vectorized chunks, and queries local vector databases to enrich AI responses.",
-    "techStack": ["Next.js", "React", "TypeScript", "TailwindCSS", "Vector DB", "Ollama"],
+    "description": "Secure, multi-tenant RAG platform using Next.js & Supabase. Decouples document indexing via a Redis/BullMQ queue and runs local WASM embeddings to achieve sub-100ms query retrievals.",
+    "techStack": ["Next.js", "React", "TypeScript", "TailwindCSS", "Supabase", "Redis", "Gemini API"],
     "status": "Active",
     "demoAvailable": true,
     "demoUrl": "https://rag-chatbot-chi-seven.vercel.app",
     "githubRepo": "RAGChatbot",
-    "details": "Supports PDF document ingestion, interactive vector spatial chunk matching visualization, custom prompt formatting overrides, and step-by-step reasoning log displays."
+    "details": "Includes local @xenova/transformers embeddings, BullMQ background ingestion, JWT authentication, and postgres vector similarity searches."
   },
   {
     "id": "stockvibe",
