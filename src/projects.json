@@ -50,7 +50,7 @@
     "techStack": ["Flask", "Python", "Ollama", "Llama 3", "Coqui TTS", "TailwindCSS"],
     "status": "Active",
     "demoAvailable": true,
-    "demoUrl": "https://studybuddy-meena.onrender.com",
+    "demoUrl": "https://studybuddy-ib95.onrender.com",
     "githubRepo": "StudyBuddy",
     "details": "Features conversational state tracking for tutor continuity, automated mock exam quiz generation, audio translation summarizers, and text-to-speech revision feeds."
   }
